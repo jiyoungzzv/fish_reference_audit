@@ -107,11 +107,17 @@ Rule-based candidates are used as independent candidate evidence for constructin
 Run the following scripts from the repository root.
 
 ```bash
+# Reference-definition sensitivity analysis
 python scripts/evaluation/evaluate_reference_sensitivity.py
-python scripts/evaluation/evaluate_missingness_all_methods.py
-python scripts/evaluation/analyze_ranking_stability.py
-```
 
+# Generate degraded references for structured missingness stress tests
+python scripts/references/make_degraded_references.py
+
+# Structured missingness evaluation across all methods
+python scripts/evaluation/evaluate_missingness_all_methods.py
+
+# Ranking-stability and top-model-change analysis
+python scripts/evaluation/analyze_ranking_stability.py
 Then generate the main figures:
 
 ```bash
