@@ -7,7 +7,7 @@ This document describes how to reproduce the main audit analyses and figures fro
 The main paper results are reproduced from:
 
 - standardized detector predictions,
-- Raw, Strict, and Lenient audit references,
+- Raw, Lenient, and Strict audit references,
 - degraded references for annotation-retention stress tests,
 - evaluation scripts,
 - ranking-stability analysis scripts,
@@ -33,7 +33,7 @@ Run:
 python scripts/evaluation/evaluate_reference_sensitivity.py
 ```
 
-This evaluates detector predictions under the Raw, Strict, and Lenient audit references using the unified point-matching protocol.
+This evaluates detector predictions under the Raw, Lenient, and Strict audit references using the unified point-matching protocol.
 
 ## Step 3. Missingness stress-test evaluation
 
@@ -102,6 +102,6 @@ results/evaluation/
 
 The audit references are controlled evaluation views, not corrected biological ground truth.
 
-The Raw reference follows the dataset-provided annotations. The Strict reference retains candidate-supported Raw annotations. The Lenient reference includes Raw annotations plus candidate-supported plausible additional spots.
+The Raw reference follows the dataset-provided annotations. The Lenient reference includes Raw annotations plus candidate-supported plausible additional spots. The Strict reference retains candidate-supported Raw annotations.
 
 Rule-based candidates are used as independent candidate evidence for constructing audit references. A rule-candidate detector is also evaluated as one baseline, but all detector outputs are evaluated under the same unified point-matching protocol.
