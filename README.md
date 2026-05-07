@@ -118,6 +118,10 @@ python scripts/evaluation/evaluate_missingness_all_methods.py
 
 # Ranking-stability and top-model-change analysis
 python scripts/evaluation/analyze_ranking_stability.py
+```
+
+The degraded-reference generation step creates CSV files under `dataset/annotations/degraded_references/`, which are required by `evaluate_missingness_all_methods.py`.
+
 Then generate the main figures:
 
 ```bash
