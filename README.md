@@ -34,7 +34,7 @@ scripts/data/
 
 scripts/references/
   Generate rule-based candidate evidence.
-  Construct Raw, Strict, and Lenient audit references.
+  Construct Raw, Lenient, and Strict audit references.
   Generate degraded references for annotation-retention stress tests.
 
 scripts/predictions/
@@ -57,7 +57,7 @@ The code follows the analysis pipeline described in the paper:
 
 1. Construct the held-out FISH_spots audit split.
 2. Generate rule-based candidate evidence.
-3. Build Raw, Strict, and Lenient audit references.
+3. Build Raw, Lenient, and Strict audit references.
 4. Standardize detector outputs into a common point format.
 5. Evaluate all detectors using unified one-to-one point matching.
 6. Run annotation-retention stress tests under random and structured missingness.
@@ -69,8 +69,8 @@ The code follows the analysis pipeline described in the paper:
 The repository includes three audit reference views:
 
 - `Raw`: dataset-provided annotations.
-- `Strict`: candidate-supported Raw annotations.
 - `Lenient`: Raw annotations plus candidate-supported plausible additional spots.
+- `Strict`: candidate-supported Raw annotations.
 
 These references are used as controlled audit views rather than corrected biological ground truth.
 
