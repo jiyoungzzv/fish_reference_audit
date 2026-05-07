@@ -1,0 +1,9 @@
+﻿method,lenient,raw,strict
+deepblink_official,8,8,8
+intensity_peak,7,7,7
+logdog,5,5,5
+rule_candidate,1,4,4
+tophat_peak,6,6,6
+unet_heatmap,2,2,1
+unet_heatmap_pos,4,3,3
+yolo_pointbox,3,1,2

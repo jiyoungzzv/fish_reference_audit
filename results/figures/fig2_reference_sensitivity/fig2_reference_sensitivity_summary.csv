@@ -1,0 +1,97 @@
+subset,base_reference,method,global_f1_mean,method_label
+ALL,lenient,deepblink_official,0.1943003858581879,DeepBlink official
+ALL,lenient,intensity_peak,0.46086982545631083,Intensity peak
+ALL,lenient,logdog,0.5930326274248235,LoG/DoG
+ALL,lenient,rule_candidate,0.9000382620147176,Rule-candidate
+ALL,lenient,tophat_peak,0.5051681280975981,Top-hat peak
+ALL,lenient,unet_heatmap,0.7148537598303437,U-Net heatmap
+ALL,lenient,unet_heatmap_pos,0.654456723173835,U-Net heatmap + POS
+ALL,lenient,yolo_pointbox,0.5084146040481002,YOLO point-box
+ALL,raw,deepblink_official,0.2832413903915162,DeepBlink official
+ALL,raw,intensity_peak,0.4755016150642968,Intensity peak
+ALL,raw,logdog,0.6335460346399271,LoG/DoG
+ALL,raw,rule_candidate,0.6564336236699692,Rule-candidate
+ALL,raw,tophat_peak,0.5537520510104472,Top-hat peak
+ALL,raw,unet_heatmap,0.804968364968365,U-Net heatmap
+ALL,raw,unet_heatmap_pos,0.772292621180226,U-Net heatmap + POS
+ALL,raw,yolo_pointbox,0.8055715879795299,YOLO point-box
+ALL,strict,deepblink_official,0.3518740566237357,DeepBlink official
+ALL,strict,intensity_peak,0.4544102695337626,Intensity peak
+ALL,strict,logdog,0.639029229546216,LoG/DoG
+ALL,strict,rule_candidate,0.7618606176862792,Rule-candidate
+ALL,strict,tophat_peak,0.5492288776127974,Top-hat peak
+ALL,strict,unet_heatmap,0.8144496995187313,U-Net heatmap
+ALL,strict,unet_heatmap_pos,0.7838103660602854,U-Net heatmap + POS
+ALL,strict,yolo_pointbox,0.8030405773078501,YOLO point-box
+MERFISH,lenient,deepblink_official,0.3013637179257132,DeepBlink official
+MERFISH,lenient,intensity_peak,0.3932652262129356,Intensity peak
+MERFISH,lenient,logdog,0.6823312005722688,LoG/DoG
+MERFISH,lenient,rule_candidate,0.9259175007582652,Rule-candidate
+MERFISH,lenient,tophat_peak,0.5788974343446578,Top-hat peak
+MERFISH,lenient,unet_heatmap,0.768089524013764,U-Net heatmap
+MERFISH,lenient,unet_heatmap_pos,0.7250637832584134,U-Net heatmap + POS
+MERFISH,lenient,yolo_pointbox,0.5835275653263684,YOLO point-box
+MERFISH,raw,deepblink_official,0.3964174146862272,DeepBlink official
+MERFISH,raw,intensity_peak,0.4730439387475912,Intensity peak
+MERFISH,raw,logdog,0.7615050857102212,LoG/DoG
+MERFISH,raw,rule_candidate,0.7294576597986683,Rule-candidate
+MERFISH,raw,tophat_peak,0.6704759603769027,Top-hat peak
+MERFISH,raw,unet_heatmap,0.8553289525355394,U-Net heatmap
+MERFISH,raw,unet_heatmap_pos,0.8127401361986274,U-Net heatmap + POS
+MERFISH,raw,yolo_pointbox,0.8599825720167207,YOLO point-box
+MERFISH,strict,deepblink_official,0.4445535756045086,DeepBlink official
+MERFISH,strict,intensity_peak,0.4628604670489487,Intensity peak
+MERFISH,strict,logdog,0.7639528095684166,LoG/DoG
+MERFISH,strict,rule_candidate,0.7995085391325716,Rule-candidate
+MERFISH,strict,tophat_peak,0.6736566885438343,Top-hat peak
+MERFISH,strict,unet_heatmap,0.8477058151422214,U-Net heatmap
+MERFISH,strict,unet_heatmap_pos,0.8074842599982265,U-Net heatmap + POS
+MERFISH,strict,yolo_pointbox,0.8499507762211284,YOLO point-box
+RCA,lenient,deepblink_official,0.0488067636244408,DeepBlink official
+RCA,lenient,intensity_peak,0.4873453031076887,Intensity peak
+RCA,lenient,logdog,0.5537413484102859,LoG/DoG
+RCA,lenient,rule_candidate,0.8683377487942396,Rule-candidate
+RCA,lenient,tophat_peak,0.4863469616025405,Top-hat peak
+RCA,lenient,unet_heatmap,0.615164955343581,U-Net heatmap
+RCA,lenient,unet_heatmap_pos,0.5881453261217169,U-Net heatmap + POS
+RCA,lenient,yolo_pointbox,0.44428421604614576,YOLO point-box
+RCA,raw,deepblink_official,0.0819712324288983,DeepBlink official
+RCA,raw,intensity_peak,0.5697674418604651,Intensity peak
+RCA,raw,logdog,0.5713909427856484,LoG/DoG
+RCA,raw,rule_candidate,0.5290502206345872,Rule-candidate
+RCA,raw,tophat_peak,0.5723645723645724,Top-hat peak
+RCA,raw,unet_heatmap,0.7362402402402403,U-Net heatmap
+RCA,raw,unet_heatmap_pos,0.7174177239803606,U-Net heatmap + POS
+RCA,raw,yolo_pointbox,0.7477435727683991,YOLO point-box
+RCA,strict,deepblink_official,0.128931881214909,DeepBlink official
+RCA,strict,intensity_peak,0.5627972330306961,Intensity peak
+RCA,strict,logdog,0.5766216526689302,LoG/DoG
+RCA,strict,rule_candidate,0.7129805583978951,Rule-candidate
+RCA,strict,tophat_peak,0.5630780813078082,Top-hat peak
+RCA,strict,unet_heatmap,0.7343951786482996,U-Net heatmap
+RCA,strict,unet_heatmap_pos,0.736970353323406,U-Net heatmap + POS
+RCA,strict,yolo_pointbox,0.7057223420136008,YOLO point-box
+SeqFISH,lenient,deepblink_official,0.1598721023181454,DeepBlink official
+SeqFISH,lenient,intensity_peak,0.48697621744054354,Intensity peak
+SeqFISH,lenient,logdog,0.5348041433227779,LoG/DoG
+SeqFISH,lenient,rule_candidate,0.8913419628972556,Rule-candidate
+SeqFISH,lenient,tophat_peak,0.4566419019316493,Top-hat peak
+SeqFISH,lenient,unet_heatmap,0.7338777906314208,U-Net heatmap
+SeqFISH,lenient,unet_heatmap_pos,0.6145628982601847,U-Net heatmap + POS
+SeqFISH,lenient,yolo_pointbox,0.4686706139353742,YOLO point-box
+SeqFISH,raw,deepblink_official,0.2396066648456705,DeepBlink official
+SeqFISH,raw,intensity_peak,0.3904284727021423,Intensity peak
+SeqFISH,raw,logdog,0.487192012348815,LoG/DoG
+SeqFISH,raw,rule_candidate,0.6107574094401756,Rule-candidate
+SeqFISH,raw,tophat_peak,0.3723473328093497,Top-hat peak
+SeqFISH,raw,unet_heatmap,0.7742678410258006,U-Net heatmap
+SeqFISH,raw,unet_heatmap_pos,0.7446245911905922,U-Net heatmap + POS
+SeqFISH,raw,yolo_pointbox,0.7518768291131187,YOLO point-box
+SeqFISH,strict,deepblink_official,0.3018585131894485,DeepBlink official
+SeqFISH,strict,intensity_peak,0.3590803627926597,Intensity peak
+SeqFISH,strict,logdog,0.4674302257663102,LoG/DoG
+SeqFISH,strict,rule_candidate,0.7070110232218304,Rule-candidate
+SeqFISH,strict,tophat_peak,0.3444502236554665,Top-hat peak
+SeqFISH,strict,unet_heatmap,0.8231603933536792,U-Net heatmap
+SeqFISH,strict,unet_heatmap_pos,0.7746520331356964,U-Net heatmap + POS
+SeqFISH,strict,yolo_pointbox,0.7960139169279671,YOLO point-box

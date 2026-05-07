@@ -1,0 +1,13 @@
+﻿ref_name,subset,n_images,n_points
+lenient,MERFISH,50,48844
+lenient,RCA,50,31958
+lenient,SeqFISH,50,20348
+raw,MERFISH,50,40362
+raw,RCA,50,23420
+raw,SeqFISH,50,16092
+raw_plus_lenient,MERFISH,50,56660
+raw_plus_lenient,RCA,50,41647
+raw_plus_lenient,SeqFISH,50,25309
+strict,MERFISH,50,32546
+strict,RCA,50,13731
+strict,SeqFISH,50,11131

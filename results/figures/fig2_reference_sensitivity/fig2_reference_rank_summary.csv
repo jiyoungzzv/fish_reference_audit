@@ -1,0 +1,9 @@
+method,raw,lenient,strict
+unet_heatmap,2.0,2.0,1.0
+rule_candidate,4.0,1.0,4.0
+unet_heatmap_pos,3.0,3.0,3.0
+yolo_pointbox,1.0,5.0,2.0
+logdog,5.0,4.0,5.0
+tophat_peak,6.0,6.0,6.0
+intensity_peak,7.0,7.0,7.0
+deepblink_official,8.0,8.0,8.0

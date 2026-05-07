@@ -1,0 +1,4 @@
+﻿subset,n_images,n_points,mean_points_per_image
+MERFISH,50,48844,976.88
+RCA,50,31958,639.16
+SeqFISH,50,20348,406.96

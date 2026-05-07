@@ -1,0 +1,4 @@
+reference,winner_method,winner_label,winner_f1,margin,second_method,second_label,second_f1
+raw,yolo_pointbox,YOLO point-box,0.8055715879795299,0.0006032230111648884,unet_heatmap,U-Net heatmap,0.804968364968365
+lenient,rule_candidate,Rule-candidate,0.9000382620147176,0.18518450218437388,unet_heatmap,U-Net heatmap,0.7148537598303437
+strict,unet_heatmap,U-Net heatmap,0.8144496995187313,0.011409122210881195,yolo_pointbox,YOLO point-box,0.8030405773078501
