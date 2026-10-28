@@ -140,7 +140,6 @@ See `REPRODUCE.md` for a step-by-step reproduction guide.
 
 This repository is organized around audit-result reproducibility. The provided standardized predictions and audit references are the inputs used for the main reference-sensitivity, missingness-stress, ranking-stability, and figure-generation analyses.
 
-## License
 
 ## Code availability
 
