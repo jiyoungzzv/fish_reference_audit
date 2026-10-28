@@ -1,63 +1,22 @@
-# Third-party assets and license notices
+# Third-Party Notices
 
-This document records the sources and upstream license information
-for third-party assets used in this study.
+This repository accompanies the NeurIPS 2026 paper **“How Complete Should a Reference Be? A Benchmark Audit for Fluorescence Spot Detection.”**
 
-## FISH_spots dataset
+The following third-party data and software were used in the research. Their licenses belong to their respective copyright holders. This list describes upstream resources; it **does not assign a license** to the original code or derived artifacts in this repository.
 
-- Source: https://huggingface.co/datasets/GangCaoLab/FISH_spots
-- Dataset DOI: https://doi.org/10.57967/hf/6150
-- License listed on the upstream dataset page: MIT.
-- Use in this study: microscopy images and reference annotations
-  for the benchmark audit.
-- The public audit repository includes processed reference coordinates.
-  Original microscopy images are obtained from the upstream source.
+| Resource | Upstream source | License / terms | Use in this work | Redistribution in this repository |
+|---|---|---|---|---|
+| **FISH_spots** | [GangCaoLab/FISH_spots](https://huggingface.co/datasets/GangCaoLab/FISH_spots) | [MIT (dataset-page designation)](https://huggingface.co/datasets/GangCaoLab/FISH_spots) | Source fluorescence microscopy images and point annotations | Original microscopy images are **not** redistributed. Derived audit references and evaluation metadata are provided; verify their distribution terms against the source dataset. |
+| **deepBlink** | [BBQuercus/deepBlink](https://github.com/BBQuercus/deepBlink) | [MIT](https://github.com/BBQuercus/deepBlink/blob/master/LICENSE) (upstream source code) | Official deepBlink baseline and pretrained `smfish1` model | Confirm whether model weights or any upstream code files are included; check applicable weight terms separately. |
+| **Ultralytics** | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [AGPL-3.0](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) (upstream repository; alternative commercial terms may be available) | YOLO training and/or inference tooling | Confirm whether any Ultralytics source code, modified code, or model weights are redistributed, and comply with applicable obligations. |
+| **U-Net** | [Ronneberger et al., MICCAI 2015](https://arxiv.org/abs/1505.04597) | **Implementation-specific; not established by the paper citation** | Architecture used for the heatmap baseline | Determine whether this repository contains an original implementation or third-party code and document the corresponding license if applicable. |
 
-The upstream dataset page and the README in the local FISH_spots copy both identify the dataset license as MIT.
-The exact dataset revision used in the experiments and any additional terms for constituent sources remain to be verified.
-Upstream copyright and license notices must be preserved where required.
+## Versions and redistribution checks
 
-## deepBlink
+Before finalizing a public release, record the exact versions or commits used for FISH_spots, deepBlink (including the `smfish1` weights), and Ultralytics. See `environment.yml`, `requirements.txt`, and the reproducibility documentation for available environment details; these may not identify the exact dataset/model revision.
 
-- Source: https://github.com/BBQuercus/deepBlink
-- Code license: MIT.
-- License text:
-  https://github.com/BBQuercus/deepBlink/blob/master/LICENSE
-- Use in this study: spot predictions from the official pretrained
-  `smfish1` model.
+If third-party source files, model weights, or other copyrighted material are included, preserve their required copyright and license notices and verify the relevant redistribution terms. Merely listing a license here does not establish that all use or distribution obligations have been fulfilled.
 
-The code license is documented above. The exact software version
-and any separate terms applicable to the pretrained model weights
-remain to be verified.
+## License for this repository
 
-## Ultralytics YOLO
-
-- Source: https://github.com/ultralytics/ultralytics
-- Upstream code license: AGPL-3.0.
-- License text:
-  https://github.com/ultralytics/ultralytics/blob/main/LICENSE
-- Use in this study: object detection, with bounding-box centers
-  converted to point predictions.
-
-The exact software version, model provenance, and license obligations
-applicable to the distributed inference integration remain to be verified.
-No replacement license is asserted for Ultralytics components.
-
-## U-Net implementations
-
-The study evaluates U-Net heatmap and U-Net heatmap+POS detectors.
-The provenance of their implementations, including any reused
-third-party code and its license, remains to be documented.
-
-## Scope and remaining checks
-
-This is an initial inventory of the principal research assets.
-It does not replace upstream license texts or grant additional rights.
-
-Before finalizing this notice, document the versions or revisions used,
-check pretrained-weight terms and any copied code, preserve required
-copyright notices, and complete the inventory of other third-party
-components.
-
-Licensing for the authors' original code and released derived data
-is addressed separately.
+The licensing of the authors' original code and derived audit artifacts is **not specified by this notice**. Any repository-level license should be selected separately after confirming ownership, institutional requirements, and compatibility with redistributed third-party material.
