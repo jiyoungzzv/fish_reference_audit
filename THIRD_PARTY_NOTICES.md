@@ -13,9 +13,9 @@ for third-party assets used in this study.
 - The public audit repository includes processed reference coordinates.
   Original microscopy images are obtained from the upstream source.
 
-The upstream copyright and license notices must be preserved where
-required. The applicable terms for the dataset revision used in the
-experiments and its constituent sources remain to be verified.
+The upstream dataset page and the README in the local FISH_spots copy both identify the dataset license as MIT.
+The exact dataset revision used in the experiments and any additional terms for constituent sources remain to be verified.
+Upstream copyright and license notices must be preserved where required.
 
 ## deepBlink
 
