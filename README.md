@@ -145,7 +145,7 @@ This repository is organized around audit-result reproducibility. The provided s
 ## Code availability
 
 This repository provides the code and precomputed results accompanying
-“How Complete Should a Reference Be? A Benchmark Audit for Fluorescence Spot Detection.”
+*“How Complete Should a Reference Be? A Benchmark Audit for Fluorescence Spot Detection.”*
 
 ## Optional detector-inference dependencies
 
