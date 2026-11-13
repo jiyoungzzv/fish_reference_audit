@@ -6,6 +6,7 @@
 <sup>1</sup> Korea University · <sup>2</sup> Hanyang University · <sup>3</sup> KITECH<br>
 
 [Paper](paper/How%20complete%20should%20a%20reference%20be%3F.pdf) · [NeurIPS poster](https://neurips.cc/virtual/2026/loc/sydney/poster/139218)
+
 <br>
 
 ## Reproducibility package
