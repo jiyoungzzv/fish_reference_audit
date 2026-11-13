@@ -1,8 +1,20 @@
-# Reference-audit reproducibility package
+# How Complete Should a Reference Be?<br>A Benchmark Audit for Fluorescence Spot Detection
+
+**NeurIPS 2026 · Evaluations and Datasets Track**
+
+**Jiyeong Kong**<sup>1,3</sup> · **Pan-Gyun Jeong**<sup>2,3</sup> · **Kyung-Tae Kang**<sup>3,†</sup><br>
+<sup>1</sup> Korea University · <sup>2</sup> Hanyang University · <sup>3</sup> KITECH<br>
+
+[Author version (PDF)](paper/how-complete-should-a-reference-be.pdf) · [NeurIPS poster page](https://neurips.cc/virtual/2026/loc/sydney/poster/139218) · [Reproduce the results](REPRODUCE.md)
+
+<br>
+
+## Reproducibility package
 
 This repository contains the code and precomputed intermediate files used to reproduce the reference-audit analyses and main figures reported in the paper.
 
 The main analyses operate on standardized detector predictions and audit references. The provided files support direct reproduction of the reference-sensitivity analysis, annotation-retention stress tests, ranking-stability analysis, top-1 stability analysis, and main figure generation.
+
 
 ## Environment setup
 
